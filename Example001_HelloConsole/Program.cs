@@ -1,2 +1,14 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("2 Hello, World!");
+﻿// Задача 1
+// приветствие пользователя
+// делаем приглашение к вводу для пользователя
+Console.Write("Введите ваше имя: ");
+
+// прописываем командыы считывания данных Comsole.ReadLine.
+// string - это тип данных, данные, которое будет вводить пользователь строка
+// знак равенства = возьми то, что справа и положи в то, что слева
+string username = Console.ReadLine();
+
+// выводить приветсвие в console
+Console.Write("Привет, ");
+Console.Write(username);
+
